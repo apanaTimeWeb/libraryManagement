@@ -1,0 +1,63 @@
+{
+  "roles": [
+    {
+      "id": "superadmin",
+      "label": "Super Admin",
+      "description": "First-time setup — configure library, shifts & plans",
+      "icon": "👑",
+      "email": "owner@smartlibrary.com",
+      "password": "Owner@1234",
+      "redirectTo": "/superadmin/superadmin_dashboard",
+      "setupComplete": true
+    },
+    {
+      "id": "admin",
+      "label": "Admin",
+      "description": "Branch management — students, fees, reports",
+      "icon": "🛡️",
+      "email": "admin@smartlibrary.com",
+      "password": "Admin@1234",
+      "redirectTo": "/admin/admin_dashboard",
+      "setupComplete": true
+    },
+    {
+      "id": "manager",
+      "label": "Manager",
+      "description": "Daily ops — admissions, seat matrix, renewals",
+      "icon": "📋",
+      "email": "manager@smartlibrary.com",
+      "password": "Manager@1234",
+      "redirectTo": "/manager/manager_dashboard",
+      "setupComplete": true
+    }
+  ],
+  "signup": {
+    "ownerName": "Rajesh Kumar",
+    "libraryName": "City Reading Hub",
+    "email": "rajesh@cityreadinghub.com",
+    "phone": "+91 9876543210"
+  },
+  "forgotPassword": {
+    "identity": "+91 9876543210"
+  },
+  "resetPassword": {
+    "otp": ["4", "2", "7", "8", "1", "9"]
+  },
+  "setupWizard": {
+    "libraryName": "City Reading Hub",
+    "address": "Block A, Sector 18, Civil Lines",
+    "city": "Allahabad",
+    "gst": "09AAAAA0000A1Z5",
+    "shifts": [
+      { "name": "Morning", "start": "06:00", "end": "12:00" },
+      { "name": "Afternoon", "start": "12:00", "end": "18:00" },
+      { "name": "Evening", "start": "18:00", "end": "22:00" }
+    ],
+    "seatCount": 60,
+    "seatPrefix": "SL-",
+    "plans": [
+      { "name": "Monthly", "days": 30, "price": 1000 },
+      { "name": "Quarterly", "days": 90, "price": 2800 }
+    ]
+  }
+}

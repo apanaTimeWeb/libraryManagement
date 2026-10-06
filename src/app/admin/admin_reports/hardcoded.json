@@ -1,0 +1,29 @@
+{
+  "kpiCards": [
+    { "label": "Total Revenue This Month", "value": "₹1,52,000", "trend": { "value": "12% vs last month", "up": true  }, "sub": "Gross fees collected" },
+    { "label": "Total Expenses",           "value": "₹42,500",   "trend": { "value": "4% vs last month",  "up": false }, "sub": "Rent + Utilities + Staff" },
+    { "label": "Net Profit",               "value": "₹1,09,500", "trend": { "value": "18% vs last month", "up": true  }, "sub": "Revenue minus expenses" },
+    { "label": "Active Students",          "value": "1,248",      "trend": { "value": "8% vs last month",  "up": true  }, "sub": "Currently enrolled" }
+  ],
+  "incomeVsExpense": {
+    "thisMonth":    [{ "month": "Feb", "income": 105000, "expense": 41000 }, { "month": "Mar", "income": 132000, "expense": 35000 }, { "month": "Apr", "income": 125000, "expense": 44000 }, { "month": "May", "income": 140000, "expense": 39000 }, { "month": "Jun", "income": 152000, "expense": 42500 }, { "month": "Jul", "income": 148000, "expense": 40000 }],
+    "last3Months":  [{ "month": "Jan", "income": 118000, "expense": 38000 }, { "month": "Feb", "income": 105000, "expense": 41000 }, { "month": "Mar", "income": 132000, "expense": 35000 }, { "month": "Apr", "income": 125000, "expense": 44000 }, { "month": "May", "income": 140000, "expense": 39000 }, { "month": "Jun", "income": 152000, "expense": 42500 }],
+    "thisYear":     [{ "month": "Jan", "income": 118000, "expense": 38000 }, { "month": "Feb", "income": 105000, "expense": 41000 }, { "month": "Mar", "income": 132000, "expense": 35000 }, { "month": "Apr", "income": 125000, "expense": 44000 }, { "month": "May", "income": 140000, "expense": 39000 }, { "month": "Jun", "income": 152000, "expense": 42500 }, { "month": "Jul", "income": 148000, "expense": 40000 }, { "month": "Aug", "income": 160000, "expense": 43000 }, { "month": "Sep", "income": 155000, "expense": 41500 }, { "month": "Oct", "income": 162000, "expense": 44000 }, { "month": "Nov", "income": 170000, "expense": 46000 }, { "month": "Dec", "income": 178000, "expense": 48000 }]
+  },
+  "shiftOccupancy": [
+    { "name": "Morning",  "value": 85, "color": "var(--chart-indigo)" },
+    { "name": "Evening",  "value": 90, "color": "var(--chart-green)"  },
+    { "name": "Night",    "value": 70, "color": "var(--chart-amber)"  },
+    { "name": "Full Day", "value": 95, "color": "var(--chart-purple)" }
+  ],
+  "revenueTrend": {
+    "thisMonth":   [{ "month": "Feb", "revenue": 105000 }, { "month": "Mar", "revenue": 132000 }, { "month": "Apr", "revenue": 125000 }, { "month": "May", "revenue": 140000 }, { "month": "Jun", "revenue": 152000 }, { "month": "Jul", "revenue": 148000 }],
+    "last3Months": [{ "month": "Jan", "revenue": 118000 }, { "month": "Feb", "revenue": 105000 }, { "month": "Mar", "revenue": 132000 }, { "month": "Apr", "revenue": 125000 }, { "month": "May", "revenue": 140000 }, { "month": "Jun", "revenue": 152000 }],
+    "thisYear":    [{ "month": "Jan", "revenue": 118000 }, { "month": "Feb", "revenue": 105000 }, { "month": "Mar", "revenue": 132000 }, { "month": "Apr", "revenue": 125000 }, { "month": "May", "revenue": 140000 }, { "month": "Jun", "revenue": 152000 }, { "month": "Jul", "revenue": 148000 }, { "month": "Aug", "revenue": 160000 }, { "month": "Sep", "revenue": 155000 }, { "month": "Oct", "revenue": 162000 }, { "month": "Nov", "revenue": 170000 }, { "month": "Dec", "revenue": 178000 }]
+  },
+  "studentGrowth": {
+    "thisMonth":   [{ "month": "Feb", "joined": 38, "exited": 12 }, { "month": "Mar", "joined": 55, "exited": 7 }, { "month": "Apr", "joined": 48, "exited": 10 }, { "month": "May", "joined": 60, "exited": 9 }, { "month": "Jun", "joined": 72, "exited": 11 }, { "month": "Jul", "joined": 65, "exited": 8 }],
+    "last3Months": [{ "month": "Jan", "joined": 42, "exited": 8 }, { "month": "Feb", "joined": 38, "exited": 12 }, { "month": "Mar", "joined": 55, "exited": 7 }, { "month": "Apr", "joined": 48, "exited": 10 }, { "month": "May", "joined": 60, "exited": 9 }, { "month": "Jun", "joined": 72, "exited": 11 }],
+    "thisYear":    [{ "month": "Jan", "joined": 42, "exited": 8 }, { "month": "Feb", "joined": 38, "exited": 12 }, { "month": "Mar", "joined": 55, "exited": 7 }, { "month": "Apr", "joined": 48, "exited": 10 }, { "month": "May", "joined": 60, "exited": 9 }, { "month": "Jun", "joined": 72, "exited": 11 }, { "month": "Jul", "joined": 65, "exited": 8 }, { "month": "Aug", "joined": 80, "exited": 14 }, { "month": "Sep", "joined": 74, "exited": 10 }, { "month": "Oct", "joined": 88, "exited": 13 }, { "month": "Nov", "joined": 92, "exited": 15 }, { "month": "Dec", "joined": 78, "exited": 9 }]
+  }
+}

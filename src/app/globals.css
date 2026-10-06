@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+@import "tailwindcss";
+
+/* ── Hide Scrollbar Globally ── */
+body, html {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+
+/* Ensure all buttons have pointer cursor globally */
+button, [role="button"], input[type="button"], input[type="submit"] {
+  cursor: pointer;
+}
+
+@theme {
+  --color-surface: #12121d;
+  --color-surface-dim: #12121d;
+  --color-surface-bright: #383845;
+  --color-surface-container-lowest: #0d0d18;
+  --color-surface-container-low: #1b1a26;
+  --color-surface-container: #1f1e2a;
+  --color-surface-container-high: #292935;
+  --color-surface-container-highest: #343440;
+  --color-surface-variant: #343440;
+  --color-surface-tint: #c0c1ff;
+  --color-on-surface: #e3e0f1;
+  --color-on-surface-variant: #c7c4d7;
+  --color-background: #12121d;
+  --color-on-background: #e3e0f1;
+  --color-primary: #c0c1ff;
+  --color-primary-container: #8083ff;
+  --color-primary-fixed: #e1e0ff;
+  --color-primary-fixed-dim: #c0c1ff;
+  --color-on-primary: #1000a9;
+  --color-on-primary-container: #0d0096;
+  --color-on-primary-fixed: #07006c;
+  --color-on-primary-fixed-variant: #2f2ebe;
+  --color-inverse-primary: #494bd6;
+  --color-secondary: #c6c4de;
+  --color-secondary-container: #47475d;
+  --color-secondary-fixed: #e2e0fb;
+  --color-secondary-fixed-dim: #c6c4de;
+  --color-on-secondary: #2f2f43;
+  --color-on-secondary-container: #b8b6d0;
+  --color-on-secondary-fixed: #1a1a2d;
+  --color-on-secondary-fixed-variant: #45455a;
+  --color-tertiary: #ffb783;
+  --color-tertiary-container: #d97721;
+  --color-tertiary-fixed: #ffdcc5;
+  --color-tertiary-fixed-dim: #ffb783;
+  --color-on-tertiary: #4f2500;
+  --color-on-tertiary-container: #452000;
+  --color-on-tertiary-fixed: #301400;
+  --color-on-tertiary-fixed-variant: #703700;
+  --color-error: #ffb4ab;
+  --color-error-container: #93000a;
+  --color-on-error: #690005;
+  --color-on-error-container: #ffdad6;
+  --color-outline: #908fa0;
+  --color-outline-variant: #464554;
+  --color-inverse-surface: #e3e0f1;
+  --color-inverse-on-surface: #302f3b;
+}
+
+.glass-panel {
+  background: rgba(41, 41, 53, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.otp-input {
+  width: 3.5rem;
+  height: 4rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  background-color: #1f1e2a;
+  border: none;
+  border-radius: 0.75rem;
+  color: #e3e0f1;
+}
+
+.strength-meter-segment {
+  height: 4px;
+  flex: 1;
+  border-radius: 2px;
+  background-color: #343440;
+}
+
+.strength-medium {
+  background-color: #ffb783;
+}
+
+/* ─────────────────────────────────────────────
+   GLOBAL LIGHT MODE OVERRIDES
+───────────────────────────────────────────── */
+[data-theme='light'] .mgr-theme,
+[data-theme='light'] .admin-theme,
+[data-theme='light'] .fin-theme,
+[data-theme='light'] .sa-theme,
+[data-theme='light'] .crm-theme,
+[data-theme='light'] .eng-theme,
+[data-theme='light'] .comm-theme,
+[data-theme='light'] .ss-theme,
+[data-theme='light'] .sys-theme {
+    /* Backgrounds */
+    --bg-page:          #F9FAFB;
+    --bg-card:          #FFFFFF;
+    --bg-sidebar:       #FFFFFF;
+    --bg-header:        #FFFFFF;
+    --bg-input:         #F3F4F6;
+    
+    /* Borders */
+    --border:           #E5E7EB;
+    
+    /* Text */
+    --text-primary:     #111827;
+    --text-secondary:   #4B5563;
+    --text-disabled:    #9CA3AF;
+    
+    /* AG grid specifics if present */
+    --ag-bg:            #FFFFFF;
+    --ag-fg:            #111827;
+    --ag-header-bg:     #F9FAFB;
+    --ag-header-text:   #4B5563;
+    --ag-border:        #E5E7EB;
+    --ag-odd-row-bg:    #F9FAFB;
+    --ag-row-hover:     #F3F4F6;
+}
+
+[data-theme='light'] .glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid #E5E7EB;
+}

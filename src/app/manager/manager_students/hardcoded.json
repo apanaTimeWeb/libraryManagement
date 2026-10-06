@@ -1,0 +1,51 @@
+{
+  "groupAdmission": {
+    "groupName": "Imperial Medical Batch",
+    "commonPlan": "Full Academic Year",
+    "groupDiscount": 15,
+    "commonShift": "Morning (6 AM - 2 PM)",
+    "students": [
+      { "id": 1, "name": "Arjun Malhotra", "phone": "+91 98765 43210", "shift": "Morning", "seat": "A-102", "amount": 4250, "mode": "UPI" },
+      { "id": 2, "name": "Sanya Iyer", "phone": "+91 88223 34455", "shift": "Morning", "seat": "B-204", "amount": 4250, "mode": "Cash" },
+      { "id": 3, "name": "Rahul Verma", "phone": "+91 77334 55667", "shift": "Morning", "seat": "C-301", "amount": 4250, "mode": "UPI" }
+    ]
+  },
+  "students": [
+    {
+      "smartId": "ID-88219",
+      "name": "Aarav Sharma",
+      "avatar": "https://lh3.googleusercontent.com/aida-public/AB6AXuAV8rmT8p-aoh0Z5kg0Jbpn8vloDTJtAVbehotVvpXcISEYbXMzj0VTiFIRhXAY-9NSjGhfrfjqGm0XJXQh1QjXNxPajc4LqA49b-ULRLJSXrtc4S73Gs5fte8qGnRmsUGyPeBWTrS7hMDWHXm09xwM_ToBWDGac2rmXZHDz_Fe3ZIThK57yPmuFA9DS2kpYHbJYbAGTvTFuSbcAU6nmq7-a8YBcxgmYL8iv8Ic9PAVjNVloiXV09PvCySYlHjChJYatDflLxDIOlg2",
+      "phone": "+91 98765 43210",
+      "shift": "Morning",
+      "seat": "Seat #42A",
+      "status": "Active",
+      "plan": "UPSC Premium",
+      "due": 1200,
+      "joined": "12 Jan 2024"
+    },
+    {
+      "smartId": "ID-88452",
+      "name": "Rohan Gupta",
+      "avatar": "https://lh3.googleusercontent.com/aida-public/AB6AXuC8EdIXH2ke0ozHaSaxPo1MZoWlhQuzS13mdGf86XnaD08eOJuQ4Uogf69B9NBW8oTffYyeXkQ3Uup_ryruyZ9NKzCgabRoFs-kORH63-Yo61VwkjF9O7kX9YemOaLdQZnuo1SXIN-EfE_lvLE3xRuc5zkVyK-1Q2894o6dYeEDwB_GDwyYsWB_YUbkW7nJu58FRsZpcw6Oj1-qi2YzcOXBE2IFOfJnMYTaDaVRo_hyMKuzsuK6XUXz0RYayA09h91VBwkDe_iSliVK",
+      "phone": "+91 99887 76655",
+      "shift": "Night",
+      "seat": "Seat #12B",
+      "status": "Suspended",
+      "plan": "Full Access",
+      "due": 0,
+      "joined": "05 Feb 2024"
+    },
+    {
+      "smartId": "ID-89012",
+      "name": "Priya Varma",
+      "avatar": "https://lh3.googleusercontent.com/aida-public/AB6AXuA3onZuSKLItWur48akldQ2i1DlZMpH1P2Jz4ac3RuqJImP1RFgTPTuDUKAgnopSwPgy1n5NX07_HbuztW22bu2TUWSpyJnmnOxcZdZx7AwkWxxuactm62X3ViIKvrkYK1OHMaxgQSh4qG5gYBsh97xLPqpgPnDWe7Ubx8zQB43IShMY1_GD66GxGfZu-clv3Rvp5rvL-vYeNLewyiK1gsnQMRvEE3hxo4iLtm322YtEIAVO5AeruMsnT6gGVMe6lXlJ6J7pfYjkFc1",
+      "phone": "+91 88776 65544",
+      "shift": "Afternoon",
+      "seat": "Seat #08",
+      "status": "Active",
+      "plan": "Standard 6hr",
+      "due": 0,
+      "joined": "15 Feb 2024"
+    }
+  ]
+}
